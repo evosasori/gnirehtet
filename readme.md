@@ -4,15 +4,38 @@ Share your computer's internet connection with your Android device through USB u
 
 Based on the original project: [Genymobile/gnirehtet](https://github.com/Genymobile/gnirehtet)
 
-## Prerequisites
+## Debian Base
+### Prerequisites
+
+- Debian Linux system
+- Android device with USB debugging capabilities
+- USB cable
+
+### Installation
+#### 1. Install Required Dependencies
+
+```bash
+# Install Rust compiler
+sudo apt install android-tools-adb android-tools-fastboot -y
+```
+#### 2. Clone and Build
+
+```bash
+# Clone the repository
+git clone https://github.com/Genymobile/gnirehtet
+cd gnirehtet
+
+```
+## Arch Base
+### Prerequisites
 
 - Arch Linux system
 - Android device with USB debugging capabilities
 - USB cable
 
-## Installation
+### Installation
 
-### 1. Install Required Dependencies
+#### 1. Install Required Dependencies
 
 ```bash
 # Install Rust compiler
@@ -22,7 +45,7 @@ sudo pacman -S rust
 sudo pacman -S android-tools
 ```
 
-### 2. Clone and Build
+#### 2. Clone and Build
 
 ```bash
 # Clone the repository
