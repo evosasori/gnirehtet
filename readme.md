@@ -15,7 +15,7 @@ Based on the original project: [Genymobile/gnirehtet](https://github.com/Genymob
 #### 1. Install Required Dependencies
 
 ```bash
-# Install Rust compiler
+# Install dependensi
 sudo apt install android-tools-adb android-tools-fastboot -y
 ```
 #### 2. Clone and Build
