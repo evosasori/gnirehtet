@@ -1,4 +1,4 @@
-# Gnirehtet - Reverse USB Tethering for Arch Linux
+# Gnirehtet - Reverse USB Tethering for Linux
 
 Share your computer's internet connection with your Android device through USB using Rust-based Gnirehtet.
 
